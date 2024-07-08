@@ -7,7 +7,7 @@ const Appbar = () => {
   const navigate = useNavigate();
   const setsearch = useSetRecoilState(searchState);
 
-  const showSearch = location.pathname === "/Blogs";
+  const showSearch = location.pathname === "/blogs";
 
   return (
     <div className="border-b border-gray-200 px-10 py-4 flex justify-between">
